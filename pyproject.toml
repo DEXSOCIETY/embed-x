@@ -1,0 +1,25 @@
+[project]
+name = "embed-x"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "mohit pilkhan",email = "mahiji259@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi (>=0.115.8,<0.116.0)",
+    "uvicorn (>=0.34.0,<0.35.0)",
+    "torch (>=2.6.0,<3.0.0)",
+    "torchvision (>=0.21.0,<0.22.0)",
+    "torchaudio (>=2.6.0,<3.0.0)",
+    "pillow (>=11.1.0,<12.0.0)",
+    "openai-clip (>=1.0.1,<2.0.0)",
+    "numpy (>=2.2.2,<3.0.0)",
+    "python-multipart (>=0.0.20,<0.0.21)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
